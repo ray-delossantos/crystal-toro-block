@@ -31,7 +31,12 @@ module.exports = CrystalBlock =
     'def'
     'begin'
     'describe'
-    'context'
+    'context',
+    'on',
+    'get',
+    'post',
+    'put',
+    'patch'
   ]
   crystalStartBlockScopes: [
      'keyword.control.crystal'
